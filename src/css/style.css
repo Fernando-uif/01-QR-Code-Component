@@ -311,7 +311,11 @@ template {
   box-sizing: inherit; }
 
 html {
+  font-size: 15px;
   background-color: #d6e2f0; }
+  @media screen and (max-width: 375px) {
+    html {
+      font-size: 10px; } }
 
 body {
   align-items: center;
